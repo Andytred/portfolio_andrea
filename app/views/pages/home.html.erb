@@ -1,40 +1,24 @@
-<html>      
-    <head>
-        <meta charset="utf-8">
-        <script src="https://kit.fontawesome.com/6ded19e0e8.js" crossorigin="anonymous"></script>
-        <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto:ital,wght@0,100;0,700;1,500&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Lobster&family=Monoton&display=swap" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <body>
+         
+<body id="page1">
+    <div class="background-img">
+    
+        <div class="main-text">
+            <h1>Hello, I'm <span style="color: #c62a88">Andrea Tredrea</span></h1>
+            <h1>I'm a junior front-end web developer & service designer</h1>
+        </div>
+            <div>
+                <%= link_to 'View my projects', about_path, :class => "success" %>
+            </div>
             
-            <div class="container">
-                <h1 class="front">Front-end Web Developer & Service Designer</h1>
-                <%= image_tag('andrea.png', :class => "logo") %>
-             </div>
-            <div class=" card about">
-                <div class="me">
-                    <p style="font-size:3vw"><strong>Hi, I'm Andrea. Nice to meet you.</strong></p>
-                </div>
-                    <p>I'm a former retail leader with a decade of leadership experience turning around unprofitable stores with an MBA in service design & leadership from one of the top programs in Finland. Currently bringing together this experience in the digitial space via service design, UX/UI research, and Front End Web Development. </p>
-                <div class="about-btn">
-                    <%= link_to 'More about me', about_path, :class => "btn"%>
-                </div>
-                    
-            </div>              
-                <div class="second">
-                    <h2>Living, learning & I love what I do</h2>
-                        <ul class="list-inline">
-                        <li><a href="https://www.facebook.com/andrea.sabova2/"target="_blank"><i class="fab fa-facebook"></i></a> </li>
-                        <li><a href="https://www.linkedin.com/in/andreatredrea/"target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                        <li><a href="https://github.com/Andytred"target="_blank"><i class="fab fa-github"></i></a></li>
-                    <h3>Handcrafted by me @ andreaTredrea</h3>
-                    </ul>
-                </div>
-           
-                
-            
-        </body>
-    </head>
-</html>
+        <div class="footer text">
+            <%= link_to 'About', root_path, class: "about-me" %>
+            <%= link_to 'Contact', about_path, class: "contact-me" %>
+            <%= link_to 'Something', about_path, class: "something-me" %>
+        </div>
+    </div> 
+</body>
+    
+ 
+
+   
+
