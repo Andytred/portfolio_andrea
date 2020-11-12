@@ -1,96 +1,64 @@
-
-
-a:hover {
-    color: black;
+body#page2{
+  background-color: #f9f4ef;
 }
+     
 
-a {
-    text-decoration: none,
-}
-
-#follow {
-    color: white;
+#follow{
+  color: white;
 
 }
 
 i {
-    color: white;
+  color:#343a40;
 
 }
 
 i:hover {
-    color: #ed6663;
-}
-
-.first {
-  background: lightgray;                         /* White background */
-padding: 30px;                             /* Internal space */
-border-radius: 8px;                        /* Small radius */
-box-shadow: 0 10px 30px rgba(0,0,0,.1); 
-        /* Set the width */
-      /* Set automatic margins on right/left */
-text-align: center;
-text-align: center;
-margin: 50px;
-text-align: center;
-margin: 50px;
-
-}
-
-
-.second {
-background: lightgray;                         /* White background */
-padding: 30px;                             /* Internal space */
-border-radius: 8px;                        /* Small radius */
-box-shadow: 0 10px 30px rgba(0,0,0,.1); 
-        /* Set the width */
-      /* Set automatic margins on right/left */
-text-align: center;
-text-align: center;
-margin: 50px;
+  color: #ed6663;
 }
 
 .list-inline > li {
-display: inline-block;
-padding: 0px 30px;
-font-size: 30px;
-color: white;
+  display: inline-block;
+  padding: 0px 30px;
+  font-size: 30px;
+  color:#343a40;
 }
 
-ul {
-    padding-left: 0px;
-    padding: 20px;
+ul{
+  padding-left: 0px;
+  padding: 20px;
 }
 
-.btn {
-    background: #0f4c75;
-    color: white;
-    padding: 10;
-    border-radius: 10px;
-    
-}
-
-.btn:hover {
-    background-color: #ed6663;
-}
-
-
-
-img {
-
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin-bottom: 20px;
-    text-align: center;
+.img-me{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 40px;
+  text-align: center;
+  margin-top: 150px;
+  margin-left: 489px;
 }
 
 .touch {
   flex: 0 0 50px;
   margin-right: 20px;
-  font-size: 250%;
+  font-size: 337%;
+  margin-left: -213px;
+  margin-top: 226px;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 1rem;
+  align-self: flex-end;
+  padding-right: 50px;
 }
+
+.lead{
+  background-color: #343a40 ;
+  
+  color: white;
+}
+
 
 
 
