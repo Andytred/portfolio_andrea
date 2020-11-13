@@ -43,10 +43,16 @@ ul{
 #myBtn{
   margin-left: 500px;
   background-color: #343a40;
+  border-radius: 4px;
+  margin-top: 20px;
 }
 
 #myBtn:hover {
   background-color: #ed6663;
+  border: none;
+  border-radius: 4px;
+  margin-left: 500px;
+  margin-top: 20px;
 }
 
 .touch {
@@ -86,6 +92,21 @@ ul{
 
 #more {
   display: none;
+}
+
+#projects{
+  width: 35rem;
+}
+
+.project-cards{
+  margin-top: 80px;
+  border-top: 2px solid lightgray;
+  margin-bottom: 70px;
+
+}
+
+.border-projects{
+  color: black;
 }
 
 
