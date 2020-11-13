@@ -7,81 +7,106 @@
         </ul>
 
         <body id=page3>
-		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-   <a class="navbar-brand" href="#">AndyTred</a>
-   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-   <span class="navbar-toggler-icon"></span>
-   </button>
-   <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-         <li class="nav-item">
-            <a class="nav-link" href="#about">About Me</a>
-         </li>
-         <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-         </li>
-         <li class="nav-item">
-            <a target="_blank" class="nav-link" href="https://drive.google.com/file/d/1rD7Fi14X1iZDaznNmJ_Q7AyYsl-7Ityf/view" download>
-            Resume
-            </a>
-         </li>
-      </ul>
-   </div>
-</nav>
-
-<div  class="h-100 p-5 d-flex flex-column justify-content-center align-items-center">
-  
-</div>
-
+            <a class="navbar-brand" href="#">AndyTred</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link mr-sm-2" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a target="_blank" class="nav-link" href="https://drive.google.com/file/d/1rD7Fi14X1iZDaznNmJ_Q7AyYsl-7Ityf/view" download>
+                        Resume
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div  class="h-100 p-5 d-flex flex-column justify-content-center align-items-center">
+    </div>
         <div class="cards">
-            <div class=" cards first">
+            <div class=" cards first about-me">
                 <%= image_tag "again.png", :class => "img-me" %>
-                <li>I am a Czech national and fluent in English. Before changing my career focus to become a Full Stack Web Developer, I had a decade of leadership experience turning around unprofitable retail stores in the Czech Republic.</li>
-                <li>2016 represented a turning point in my career when I decided to concentrate on improving my base of knowledge. In 2018, I earned an MBA in service design and leadership from one of the top English-language programs in Finland. During my two years of MBA’s program, I developed a deep understanding of service design and service design thinking processes such as empathize, define, ideate, prototype, and test. Also applying service design tools including Personas, Blueprint, Stakeholder map, or Customer journey. This approach provided me with a better understanding of users, their behavior, and the delivery of services based on customer needs.</li>
-                <li>Once I started improving my knowledge base, I just could not stop and after realizing that the outlook for retail and in-person commerce had permanently changed, I decided to challenge myself by translating my decade of “offline” expertise into learning how to deliver easy, effective and satisfying consumer experiences online'.</li>
-                <li>In 2020, I have graduated from the Barcelona campus of Le Wagon, which is the top-ranked coding Bootcamp globally. I have to admit that I am surprised by my adaptation capacity to a new sphere of thinking and also, how much I enjoy the technical aspect of the work. I truly understand how innovation improves the customer service experience, which has always been my passion, not only in my “offline” career but "online" as well.</li>
-                <li>My goal is to join a team as a Front-End Web Developer that allows me to expand my expertise and technical skills in combination with my education and my extensive professional experience. I am sure that my most recently acquired technical skills with HTML, CSS, and JavaScript can be the perfect way to build a very successful “online” career as I did in the “offline” world. And for what it’s worth, I can’t wait! </li>
+                <p>
+                    <li>I am a Czech national and fluent in English. Before changing my career focus to become a Full Stack Web Developer, I had a decade of leadership experience turning around unprofitable retail stores in the Czech Republic.</li>
+                        <span id="dots">...</span><span id="more">
+                            <li>2016 represented a turning point in my career when I decided to concentrate on improving my base of knowledge. In 2018, I earned an MBA in service design and leadership from one of the top English-language programs in Finland. During my two years of MBA’s program, I developed a deep understanding of service design and service design thinking processes such as empathize, define, ideate, prototype, and test. Also applying service design tools including Personas, Blueprint, Stakeholder map, or Customer journey. This approach provided me with a better understanding of users, their behavior, and the delivery of services based on customer needs.</li>
+                            <li>Once I started improving my knowledge base, I just could not stop and after realizing that the outlook for retail and in-person commerce had permanently changed, I decided to challenge myself by translating my decade of “offline” expertise into learning how to deliver easy, effective and satisfying consumer experiences online'.</li>
+                            <li>In 2020, I have graduated from the Barcelona campus of Le Wagon, which is the top-ranked coding Bootcamp globally. I have to admit that I am surprised by my adaptation capacity to a new sphere of thinking and also, how much I enjoy the technical aspect of the work. I truly understand how innovation improves the customer service experience, which has always been my passion, not only in my “offline” career but "online" as well.</li>
+                            <li>My goal is to join a team as a Front-End Web Developer that allows me to expand my expertise and technical skills in combination with my education and my extensive professional experience. I am sure that my most recently acquired technical skills with HTML, CSS, and JavaScript can be the perfect way to build a very successful “online” career as I did in the “offline” world. And for what it’s worth, I can’t wait! </li>
+                        </span></p>
+                </p>
+                <button type="button" onclick="myFunction()" id="myBtn" class="btn btn-secondary">Read more</button>
             </div> 
             <div id="projects" class=" d-flex flex-row p-5 flex-wrap justify-content-center p-3align-items-center">
-   <div class="card m-3" style="width: 30rem;">
-      <img src="https://imgur.com/BI6Y4p3.png" class="card-img-top" alt="...">
-      <div class="card-body">
-         <h5 class="card-title h2">Project 1</h5>
-         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-   </div>
-   <div class="card m-3" style="width: 30rem;">
-      <img src="https://imgur.com/HycMqLT.png" class="card-img-top" alt="...">
-      <div class="card-body">
-         <h5 class="card-title h2">Project 2</h5>
-         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-   </div>
-   <div class="card m-3" style="width: 30rem;">
-      <img  src="https://imgur.com/ZaRAvUQ.png" class="card-img-top" alt="...">
-      <div class="card-body">
-         <h5 class="card-title h2">Project 3</h5>
-         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-   </div>
-   <div class="card m-3" style="width: 30rem;">
-      <img  src="https://imgur.com/jQZthWf.png" class="card-img-top" alt="...">
-      <div class="card-body">
-         <h5 class="card-title h2">Project 4</h5>
-         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-   </div>
-</div>
-            
-            
-            
-        </div> 
+                <div class="card m-3" style="width: 60rem;">
+                    <img src="https://imgur.com/ZaRAvUQ.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title h2">Project 1</h5>
+                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        <div class="card m-3" style="width: 30rem;">
+            <img src="https://imgur.com/HycMqLT.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title h2">Project 2</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+        <div class="card m-3" style="width: 30rem;">
+            <img  src="https://imgur.com/ZaRAvUQ.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title h2">Project 3</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+        <div class="card m-3" style="width: 30rem;">
+            <img  src="https://imgur.com/jQZthWf.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title h2">Project 4</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+        </div>    
+    </div> 
         
-    </div>
+</div>
    
-   </div>
+</div>
+
+   <div>
+   <footer class="page-footer font-small blue pt-4">
+   <div class="footer-copyright text-center py-3">© 2020 Handcrafted by:
+    <a href="https://mdbootstrap.com/"> andrea.tredrea.com</a>
+  </div>
+   
+
+   <script>
+        function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+            } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less"; 
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
+   
 
 </body>

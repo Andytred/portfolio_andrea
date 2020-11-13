@@ -31,13 +31,22 @@ ul{
 
 .img-me{
   border-radius: 50%;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   margin-bottom: 40px;
   text-align: center;
   margin-top: 150px;
-  margin-left: 489px;
+  margin-left: 450px;
+}
+
+#myBtn{
+  margin-left: 500px;
+  background-color: #343a40;
+}
+
+#myBtn:hover {
+  background-color: #ed6663;
 }
 
 .touch {
@@ -59,7 +68,25 @@ ul{
   color: white;
 }
 
+.navbar-nav{
+  margin-left: 1265px;
+}
 
+.cards {
+  li {
+    color: #343a40;
+    font-size: medium;
+  }
+}
+
+.page-footer{
+  background-color: #343a40;
+  color:#c62a88;
+}
+
+#more {
+  display: none;
+}
 
 
 
